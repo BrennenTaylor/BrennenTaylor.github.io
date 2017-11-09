@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Brennen Taylor</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<meta charset="utf-8"></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Brennen Taylor!</h1>
-        		<p>This site will document my growth as a computer scientist over the years.</p>
-    		</div>
+		<div class="jumbotron text-center">
+			<h1>Real-Time Physically Based Wet Microfacet Surface Rendering</h1>
+			<p>A project to bring physically accurate wet surface rendering to real-time simulations</p>
+			<img src="./images/WetDry.png" class="img-rounded" alt="WetDry"></img>
+			<p><a href=https://seblagarde.wordpress.com/tag/physically-based-wet-surfaces/>Image by Sebastien Lagarde</a></p>
 		</div>
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="./reports/ProjectProposal.pdf">
+						<button type="button" class="btn btn-primary btn-lg center-block" data-toggle="tooltip" title="Click to download project proposal">Project Proposal</button>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<button type="button" class="btn btn-primary btn-lg center-block disabled" data-toggle="tooltip" title="Incomplete">Project Update</button>
+				</div>
+				<div class="col-sm-4">
+					<button type="button" class="btn btn-primary btn-lg center-block disabled" data-toggle="tooltip" title="Incomplete">Final Report</button>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
